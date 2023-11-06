@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Common to all similar devices -->
+  <project path="kernel/samsung/msm8930-common" name="jb881122/android_kernel_samsung_msm8930-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="kostoulhs/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8930-common" name="kostoulhs/android_device_samsung_msm8930-common" remote="github" revision="cm-11.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+  <project path="external/out-of-range" name="jb881122/out-of-range" remote="github" revision="main" />
+
+  <!-- SM-G730A -->
+  <project path="device/samsung/goldenlteatt" name="jb881122/android_device_samsung_goldenlteatt" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung/goldenlteatt" name="jb881122/proprietary_vendor_samsung_goldenlteatt" remote="github" revision="cm-11.0"/>
+</manifest>
